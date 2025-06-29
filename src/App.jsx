@@ -1,9 +1,11 @@
 import React from 'react'
 import Main from './Components/Main'
-import About from './Components/About'
 import LocomotiveScroll from 'locomotive-scroll';
-import SheryImage from './Components/SheryImage';
 import Service from './Components/Service';
+import Hover from './Components/Hover';
+import Footer from './Components/Footer';
+import BookCall from './Components/BookCall';
+import Menu from './Components/Menu';
 
 
 
@@ -12,9 +14,12 @@ const App = () => {
   return (
     <>
       <div className="selection:bg-black selection:text-white">
+        <Footer />
+        <Menu />
+        <BookCall />
         <Main />
+        <Hover />
         <Service />
-        <About />
       </div>
     </>
   )

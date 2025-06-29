@@ -1,12 +1,13 @@
 import React from 'react'
 
 const Service = () => {
-       return (
-              <div data-scroll data-scroll-speed="1.2" className='h-screen w-full bg-black rounded-t-2xl'>
+  return (
+    <>
+      <div className="service max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-[90vh] bg-black">
 
-
-              </div>
-       )
+      </div>
+    </>
+  )
 }
 
 export default Service
