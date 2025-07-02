@@ -4,7 +4,7 @@ import { GiWorld } from "react-icons/gi";
 const Footer = () => {
        return (
               <>
-                     <footer className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen py-5 bg-blue-40 font-["font"]'>
+                     <footer className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen py-5 bg-blue-40 flex flex-col justify-between  font-["font"]'>
                             <div className="prt-1 w-full h-[40%] bg-green-60 flex gap-1 font-['fodnt'] ">
                                    <div className="w-1/2 bg-red-0 h-full ">
                                           <h1 className='border-b-1 border-zinc-600/50'>Menu</h1>
@@ -24,6 +24,10 @@ const Footer = () => {
                                    </div>
 
                             </div>
+                            <div className="prt-1 w-full h-[10%] leading-9 ">
+                                   <h1 className='uppercase text-[10.5vh] opacity-75'>Jekey&copy;</h1>
+                                   <h1>(Web Designer & Developer) </h1>
+                            </div>
                             <div className=" flex justify-between items-end">
                                    <h1 className='uppercase'>
                                           &copy; 2025 <br />
@@ -36,9 +40,7 @@ const Footer = () => {
 
                                    </h1>
                             </div>
-                            <div className="prt-1 w-full h-[10%] ">
-                                   <h1 className='uppercase text-[10.5vh]'>Jekey&copy;</h1>
-                            </div>
+
                      </footer>
               </>
        )

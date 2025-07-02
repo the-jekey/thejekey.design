@@ -22,7 +22,7 @@ const Main = () => {
                      </main>
                      <section className='w-full md:px-8 lg:px-10 bg-red-60 h-[20vh] mt-5 flex items-end justify-between'>
                             <div className="img h-[15vh] w-[12vh] rounded-2xl overflow-hidden z-50">
-                                   <img className='w-full h-full object-cover object-center' src="../img.JPG" alt="Profile image" />
+                                   <img className='w-full h-full object-cover object-center' src="../imgg.JPG" alt="Profile image" />
                             </div>
                             <div className="txt relative  text-[10px] font-semibold">
                                    <p>( Web Designer <br /> & Developer )</p>

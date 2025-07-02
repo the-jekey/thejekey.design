@@ -6,6 +6,7 @@ import Hover from './Components/Hover';
 import Footer from './Components/Footer';
 import BookCall from './Components/BookCall';
 import Menu from './Components/Menu';
+import About from './Components/About';
 
 
 
@@ -14,12 +15,13 @@ const App = () => {
   return (
     <>
       <div className="selection:bg-black selection:text-white">
-        <Footer />
+        <About />
+        <Main />
         <Menu />
         <BookCall />
-        <Main />
         <Hover />
         <Service />
+        <Footer />
       </div>
     </>
   )
