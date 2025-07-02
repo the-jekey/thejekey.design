@@ -3,10 +3,9 @@ import Navbar from './Navbar'
 import GrainyFilter from './GrainyFilter'
 import Button from './Button'
 import { MdOutlineCopyright } from "react-icons/md";
-
 const Main = () => {
        return (
-              <div className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen bg-[#e5e5e0] relative overflow-hidden font-["font"]'>
+              <div className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen bg-[var(--primary-color)]  relative overflow-hidden font-["font"]'>
                      <div className="absolute inset-0 pointer-events-none" style={{ filter: 'url(#grainy)', opacity: 1 }}></div>
                      <Navbar />
                      <main className='w-full mt-50 relative z-50 md:px-8 lg:px-10  bg-red-60 text-[6vh] md:text-[15vh] lg:text-[35vh] '>
@@ -28,8 +27,8 @@ const Main = () => {
                                    <p>( Web Designer <br /> & Developer )</p>
                             </div>
                      </section>
+
               </div>
        )
 }
-
 export default Main

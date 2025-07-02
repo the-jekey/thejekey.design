@@ -11,10 +11,10 @@ const Navbar = () => {
                                    <span className='text-xs'><MdOutlineCopyright /></span>
                             </div>
                             <div className="links text-[14px] font-[sdf] font-semibold md:flex md:gap-4">
-                                   <p>Services!</p>
-                                   <p>Work!</p>
-                                   <p>About!</p>
-                                   <p>Contact!</p>
+                                   <h1 className='cursor-pointer'>Services!</h1>
+                                   <h1 className='cursor-pointer'>Work!</h1>
+                                   <h1 className='cursor-pointer'>About!</h1>
+                                   <h1 className='cursor-pointer'>Contact!</h1>
                             </div>
                      </nav>
               </>

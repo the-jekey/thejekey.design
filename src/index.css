@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root {
+       --primary-color: #F2F2F2;
+       --secondary-color: #c4c4c4;
+}
+
 @font-face {
        font-family: "Font";
        src: url(/Akzidenz-grotesk-black.ttf);

@@ -14,13 +14,12 @@ const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <>
-      <div className="selection:bg-black selection:text-white">
-        <About />
+      <div className="selection:bg-black selection:text-white ">
         <Main />
         <Menu />
+        <About />
         <BookCall />
         <Hover />
-        <Service />
         <Footer />
       </div>
     </>

@@ -7,7 +7,7 @@ const Button = () => {
                      <a href="https://cal.com/the-jekey/book-a-call" target="_blank" rel="noopener noreferrer">
 
                             <button className='cursor-pointer group px-8 py-4 bg-black dark:bg-white dark:text-black active:scale-97 transition-all  text-white rounded-full flex  text-base font-["font"] font-semibold hover:scale-105'>
-                                   Book a Call
+                                  <h1> Book a Call</h1>
                                    <span>
 
                                    </span>
