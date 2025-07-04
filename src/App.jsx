@@ -7,6 +7,7 @@ import Footer from './Components/Footer';
 import BookCall from './Components/BookCall';
 import Menu from './Components/Menu';
 import About from './Components/About';
+import ButtonAndMenu from './Components/ButtonAndMenu';
 
 
 
@@ -16,7 +17,7 @@ const App = () => {
     <>
       <div className="selection:bg-black selection:text-white ">
         <Main />
-        <Menu />
+        <Service />
         <About />
         <BookCall />
         <Hover />

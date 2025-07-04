@@ -6,11 +6,9 @@ const Button = () => {
               <div>
                      <a href="https://cal.com/the-jekey/book-a-call" target="_blank" rel="noopener noreferrer">
 
-                            <button className='cursor-pointer group px-8 py-4 bg-black dark:bg-white dark:text-black active:scale-97 transition-all  text-white rounded-full flex  text-base font-["font"] font-semibold hover:scale-105'>
-                                  <h1> Book a Call</h1>
-                                   <span>
-
-                                   </span>
+                            <button className='cursor-pointer group px-8 py-4 md:px-12 md:py-8 md:text-2xl lg:py-5 lg:px-6 lg:text-xl bg-[var(--secondary-color)]  active:scale-97 transition-all  text-white rounded-full flex  text-base font-["font"] '>
+                                   <h1> Book a Call</h1>
+                                 
                             </button>
                      </a>
               </div>
