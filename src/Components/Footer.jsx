@@ -47,24 +47,24 @@ const Footer = () => {
 
        return (
               <>
-                     <footer id='Contact' className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen relative py-5 bg-blue-40 flex flex-col justify-between  bg-[var(--primary-color)]  font-["font"]'>
+                     <footer id='Contact' className='max-w-screen mx-auto px-6 md:px-8 lg:px-10 h-screen lg relative py-5 bg-blue-40 flex flex-col justify-between  bg-[var(--primary-color)]  font-["font"]'>
                             <div className="prt-1 w-full h-[40%] bg-green-60 flex gap-1 font-['font'] ">
                                    <div className="w-1/2 bg-red-0 h-full md:text-2xl lg:text-xl ">
                                           <h1 className='border-b-1 border-zinc-600/50'>Menu</h1>
                                           <a href="#Home" onClick={(e) => smoothScrollTo(e, "Home")}>
-                                                 <h1 className='cursor-pointer'>Home!</h1>
+                                                 <h1 className='cursor-pointer hover:border-b-2 w-fit'>Home!</h1>
                                           </a>
                                           <a href="#Work" onClick={(e) => smoothScrollTo(e, "Work")}>
-                                                 <h1 className='cursor-pointer'>Work!</h1>
+                                                 <h1 className='cursor-pointer hover:border-b-2 w-fit'>Work!</h1>
                                           </a>
                                           <a href="#About" onClick={(e) => smoothScrollTo(e, "About")}>
-                                                 <h1 className='cursor-pointer'>About!</h1>
+                                                 <h1 className='cursor-pointer hover:border-b-2 w-fit'>About!</h1>
                                           </a>
                                           <a href="#Services" onClick={(e) => smoothScrollTo(e, "Services")}>
-                                                 <h1 className='cursor-pointer'>Services!</h1>
+                                                 <h1 className='cursor-pointer hover:border-b-2 w-fit'>Services!</h1>
                                           </a>
                                           <a href="#Contact" onClick={(e) => smoothScrollTo(e, "Contact")}>
-                                                 <h1 className='cursor-pointer'>Contact!</h1>
+                                                 <h1 className='cursor-pointer hover:border-b-2 w-fit'>Contact!</h1>
                                           </a>
                                    </div>
                                    <div className="w-1/2 bg-red-0 h-full  md:text-2xl lg:text-xl ">

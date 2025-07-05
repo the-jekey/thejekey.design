@@ -14,7 +14,7 @@ const Main = () => {
                      <div className="absolute inset-0 pointer-events-none" style={{ filter: 'url(#grainy)', opacity: 1 }}></div>
                      <Navbar />
                      <main className='w-full mt-45 lg:mt-28 relative z-50 md:px-8 lg:px-10  bg-red-60 text-[6vh] md:text-[15vh] lg:text-[35vh] '>
-                            <div className="name bg-red-5 overflow-hidden h-[15vh] lg:h-[25vh] pt-5 lg:flex  leading-15 md:leading-32  text-[8vh] lg:text-[30vh]">
+                            <div className="name bg-red-500 overflow-hidden h-[15vh] lg:h-[25vh] pt-5 lg:flex  leading-15 md:leading-32  text-[8vh] lg:text-[30vh]">
                                    <motion.h1
                                           initial={{ y: 200, rotate: 90, }}
                                           animate={{ y: 0, rotate: 0, }}
@@ -54,12 +54,12 @@ const Main = () => {
                                    ><Button /></motion.p>
                             </div>
                      </main>
-                     <section className='w-full md:px-8 lg:px-10 bg-red-60 h-[20vh] mt-5 flex items-end justify-between '>
+                     <section className='w-full md:px-8 lg:px-10 bg-red-60 h-[20vh] mt-5 lg:-mt-10 flex items-end justify-between '>
                             <motion.div
                                    initial={{ height: 2, }}
                                    animate={{ height: "100%", }}
                                    transition={{ duration: 0.3,  ease: [0.4, -0.61, 0, 1],}}
-                                   className="img h-[19vh] w-[12vh] rounded-2xl z-50 overflow-hidden  lg:left-1/2 relative lg:h-[40vh] lg:w-[25vh] lg:bottom-7">
+                                   className="img h-[19vh] w-[12vh] rounded-2xl z-50 overflow-hidden  lg:left-1/2 relative lg:h-full lg:w-[25vh] lg:bottom-7">
                                    <img loading='lazy' className='grayscale-100 w-full h-full object-cover object-center hover:grayscale-0' src="../image.avif" alt="Profile image" />
                             </motion.div>
                             <div className="txt relative lg:text-sm text-[10px] lg:flex lg:gap-1 font-semibold">

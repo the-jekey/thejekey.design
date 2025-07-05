@@ -16,11 +16,11 @@ const App = () => {
   return (
     <>
       <div className="selection:bg-black selection:text-white ">
+        <Hover />
         <Main />
         <Service />
         <About />
         <BookCall />
-        <Hover />
         <Footer />
       </div>
     </>
